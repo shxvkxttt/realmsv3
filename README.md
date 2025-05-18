@@ -1,1 +1,1 @@
-# realmsv3
+# only folder [resources] is eligible.
