@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script> 
+</head>
+<body>
+    <div id="main_container">
+        <h1>Enregistrement</h1>
+        <form id="registrationForm">
+            <div class="form-group">
+                <label for="prenom" id="text">Prénom</label>
+                <input type="text" id="prename" name="prenom" pattern="[A-Za-z]+" minlength="3" maxlength="15" required>
+            </div>
+            <div class="form-group">
+                <label for="nom" id="text">Nom</label>
+                <input type="text" id="name" name="nom" pattern="[A-Za-z]+" minlength="3" maxlength="15" required>
+            </div>
+            <div class="form-group">
+                <label for="dateNaissance" id="text">Date de naissance</label>
+                <input type="date" id="dateofbirth" name="dateNaissance" min="1925-01-01" max="2007-01-01" required>
+            </div>
+            <div class="form-group">
+                <label for="taille" id="text">Taille (cm)</label>
+                <input type="number" id="height" name="taille" min="100" max="220" required>
+            </div>
+            <button type="submit" id="submit">S'enregistrer</button>
+        </form>
+    </div>
+</body>
+</html>
